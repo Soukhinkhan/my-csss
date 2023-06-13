@@ -193,3 +193,29 @@ section {
 .project img {
     transition: all 0.4s ease;   
 }
+
+/*================
+  PRICING
+=================*/
+
+.pricing i {
+    font-size: 20px;
+    color: var(--primary);
+}
+
+.pricing ul li {
+    margin-top: 8px;
+}
+
+.team-member img {
+    width: 125px;
+    height: 125px;
+    border-radius: 100px;
+}
+
+.pricing h1 span{
+    color: red;
+}
+.mx-auto h6 span{
+    color: red;
+}
