@@ -9,26 +9,17 @@
     --box-shadow: 0 8px 22px rgba(0,0,0,0.1);
 }
 
-/*==================
-    BODY
-====================*/
-
 body {
     font-family: "Sora", sans-serif;
     line-height: 1.7;
     color: var(--body);
 }
 
-/*==================
-    HEADING
-====================*/
-
 h1,h2,h3,h4,h5,h6,
 .display-4 {
     color: var(--dark);
     font-weight: 700;
 }
-
 
 a {
     color: var(--dark);
@@ -38,10 +29,6 @@ a {
 img {
     width: 100%;
 }
-
-/*==================
-    NAVBAR
-====================*/
 
 .navbar {
     box-shadow: var(--box-shadow);
@@ -65,10 +52,6 @@ img {
     border-width: 2px;
     border-radius: 0;
 }
-
-/*==================
-    RERO-SECTION
-====================*/
 
 .hero {
     background-image: url(../img/cover.jpg);
@@ -94,10 +77,6 @@ section {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
-/*==================
-    Service
-====================*/
 
 .card-effect {
     box-shadow: var(--box-shadow);
@@ -160,10 +139,6 @@ section {
     top: 0;
 }
 
-/*================
-  FEATURES
-=================*/
-
 .col-img {
     background-image: url(../img/cover2.jpg);
     background-position: center;
@@ -194,9 +169,14 @@ section {
     transition: all 0.4s ease;   
 }
 
-/*================
-  PRICING
-=================*/
+.project:hover .overlay{
+    opacity: 1;
+}
+
+.project:hover img {
+    transform: scale(1.1);
+}
+
 
 .pricing i {
     font-size: 20px;
@@ -213,9 +193,70 @@ section {
     border-radius: 100px;
 }
 
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+.social-icons a {
+    width: 34px;
+    height: 34px;
+    background-color: var(--primary);
+    border-radius: 2px solid var(--primary);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    margin-left: 5px;
+    transition: all 0.4s ease;
+    border: 2px solid var(--primary);
+}
+
+.social-icons a:hover {
+    color: var(--primary);
+    background-color: transparent;
+    border-color: var(--primarys);
+}
+
+
+form input.form-control {
+    height: 56px;
+}
+
+form .form-control {
+    border: transparent;
+    border-radius: 0;
+    background-color: rgba(0,0,0,0.02);
+}
+
+
+.footer-top {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: var(--dark);
+}
+
+.footer-top a {
+    color: var(--body);
+}
+
+.footer-top a:hover {
+    color: var(--white);
+}
+
+.footer-bottom {
+    background-color: #242933;
+}
 .pricing h1 span{
     color: red;
 }
 .mx-auto h6 span{
+    color: red;
+}
+.mx-auto h1 span{
+    color: red;
+}
+.text-primary span{
     color: red;
 }
